@@ -1,7 +1,17 @@
 
-# Linux Hacks
+# Linux Hacks on Ubuntu 22.10
 
-## Two-line kali linux prompt on Ubuntu 22.10
+## Creating a linux bootable cd on linux
+
+Several tools exist but many either dont work or have poor documention. 
+GUI tool [`gnome-multi-writer`](https://linuxconfig.org/how-to-make-a-bootable-usb-from-an-iso-in-linux) 
+is easy and direct to use. Install as 
+
+```bash
+$ sudo apt install gnome-multi-writer
+```
+
+## Two-line kali linux prompt 
 
 To have the kali linux prompt, across 2 lines;
 
@@ -79,3 +89,4 @@ GUI tool to change the order of pages in a pdf file
 ### `pdftk`
 
 CLI tool to password protect a pdf file `pdftk pdf_file.pdf output output_pdf_file.pdf user_pw PROMPT`
+
